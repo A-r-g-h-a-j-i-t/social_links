@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter-display,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: var(--Off-Black);
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    
+}
+.container{
+    width: 500px;
+    height: 700px;
+    background-color: var(--Dark-Grey);
+    margin-top: 50px;
+    border-radius: 15px;
+ 
+}
+.picture{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.picture img{
+    width: 38%;
+    border-radius: 50%;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: var(--White);
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    color: var(--Green);
+    font-size: 20px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+    font-size: 15px;
+    color: var(--White);
+}
+.box1{
+   
+    background-color: var(--Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    width: 389px;
+    height: 60px;
+    margin-top:15px;
+    border-radius: 10px;
+   
+    
+
+    
+}
+.box2{
+    background-color: var(--Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    width: 389px;
+    height: 60px;
+    margin-top:15px;
+    border-radius: 10px;
+    
+}
+.box3{
+    background-color: var(--Grey);
+    display: flex;
+    justify-content: center; align-items: center;
+    margin-left: 52px;
+    width: 389px;
+    height: 60px;
+    margin-top:15px; 
+    border-radius: 10px;
+    
+}
+.box4{
+    background-color: var(--Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    width: 389px;
+    height: 60px;
+    margin-top:15px;
+    border-radius: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+ .link:hover{
+    cursor: pointer;
+    background-color: var(--Green);
+}
